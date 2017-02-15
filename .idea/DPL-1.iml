@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/p5_naive_bayes_GaussianNB" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/p5_naive_bayes_accuracy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/p5_naive_bayes_miniProject" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/p5_svm_decision_boundary" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>
