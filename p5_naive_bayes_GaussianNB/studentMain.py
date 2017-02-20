@@ -31,3 +31,11 @@ clf = classify(features_train, labels_train, features_test)
 ### draw the decision boundary with the text points overlaid
 prettyPicture(clf, labels_test, features_test)
 #output_image("test.png", "png", open("test.png", "rb").read())
+
+from classifyDT import classifyDt
+from accuracy import submitAccuracy
+clf2=classifyDt(features_train, labels_train, features_test)
+pred = clf2.predict(features_test)
+acc=submitAccuracy(pred,labels_test)
+print(acc)
+prettyPicture(clf2, labels_test, features_test)

@@ -30,10 +30,11 @@ pred = clf.predict(features_test)
 
 
 
-from sklearn.metrics import accuracy_score
-acc = accuracy_score(pred, labels_test)
 
-def submitAccuracy():
+
+def submitAccuracy(pred, labels_test):
+    from sklearn.metrics import accuracy_score
+    acc = accuracy_score(pred, labels_test)
     return acc
 
 prettyPicture(clf, labels_test, features_test)
