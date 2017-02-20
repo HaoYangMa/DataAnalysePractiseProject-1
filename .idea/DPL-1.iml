@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/p5_naive_bayes_miniProject" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/p5_svm_decision_boundary" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.5.2 virtualenv at C:\Users\99263\SciCalculate" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">
